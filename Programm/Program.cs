@@ -36,7 +36,7 @@ void PrintArray(string[] array) //метод печати массива
     System.Console.WriteLine();
 }
 
-string[] LengthWords (string[] array)
+string[] LengthWords (string[] array) //метод поиска слов в массиве с заданной длинной слова
 {
     string[] newArray = new string[array.Length];
     for (int i = 0; i < array.Length; i++)
